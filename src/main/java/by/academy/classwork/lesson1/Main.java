@@ -10,6 +10,7 @@ public class Main {
         Cat cat2 = new Cat(2, "Baki");
         System.out.println(cat2);
 
+
         Cat cat3 = new Cat(7, "Larry", 250);
         System.out.println(cat3);
     }
