@@ -1,4 +1,4 @@
-package by.academy.classwork.lesson5;
+/*package by.academy.classwork.lesson5;
 
 import java.util.Scanner;
 
@@ -21,4 +21,4 @@ public class Str {
         String string = new String();
         System.out.println(string);
     }
-}
+}*/
