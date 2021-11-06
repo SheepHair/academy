@@ -29,7 +29,7 @@ public class Matchertasc3 {
 //            System.out.println(text.substring(matcher.start(), matcher.end()));
         }
         sb.append(text.substring(startIndex));
-
+//
         System.out.println(sb);
     }
 }
