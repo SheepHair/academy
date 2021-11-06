@@ -28,6 +28,7 @@ public class Matchertasc3 {
 //            System.out.println("End index: " + matcher.end());
 //            System.out.println(text.substring(matcher.start(), matcher.end()));
         }
+        //
         sb.append(text.substring(startIndex));
         System.out.println(sb);
     }
