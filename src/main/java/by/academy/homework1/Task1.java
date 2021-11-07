@@ -24,27 +24,27 @@ public class Task1 {
         else if(Spending.compareTo(z) >= 0 & Spending.compareTo(x) < 0) // [100;200)
         {
             System.out.print("Потраченная сумма: "+ (Spending.subtract(Spending.multiply(BigDecimal.valueOf(0.07)))));
-            System.out.println(" Вычет скидки: ");
+            System.out.println(" Вычет скидки: "+ (Spending.multiply(BigDecimal.valueOf(0.07))));
         }
         else if(age <= 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), а так же условие с возрастом
         {
             System.out.print("Потраченная сумма: " + (Spending.subtract(Spending.multiply(BigDecimal.valueOf(0.09)))));
-            System.out.println(" Вычет скидки: ");
+            System.out.println(" Вычет скидки: "+ (Spending.multiply(BigDecimal.valueOf(0.07))));
         }
         else if(age > 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), а так же условие с возрастом
         {
             System.out.print("Потраченная сумма: " + (Spending.subtract(Spending.multiply(BigDecimal.valueOf(0.16)))));
-            System.out.println(" Вычет скидки: ");
+            System.out.println(" Вычет скидки: "+ (Spending.multiply(BigDecimal.valueOf(0.07))));
         }
         else if(Spending.compareTo(c) >= 0 & Spending.compareTo(v) < 0)// [300;400)
         {
             System.out.print("Потраченная сумма: "+ (Spending.subtract(Spending.multiply(BigDecimal.valueOf(0.15)))));
-            System.out.println(" Вычет скидки: ");
+            System.out.println(" Вычет скидки: "+ (Spending.multiply(BigDecimal.valueOf(0.07))));
         }
         else if(Spending.compareTo(v) >= 0)// [400; и тд
         {
             System.out.print("Потраченная сумма: "+ (Spending.subtract(Spending.multiply(BigDecimal.valueOf(0.20)))));
-            System.out.println(" Вычет скидки: ");
+            System.out.println(" Вычет скидки: "+ (Spending.multiply(BigDecimal.valueOf(0.07))));
         }
 
 
