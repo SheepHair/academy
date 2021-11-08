@@ -26,12 +26,12 @@ public class Task1 {
             System.out.print("Потраченная сумма: "+ (Spending.subtract(Spending.multiply(new BigDecimal("0.07")))));
             System.out.println(" Вычет скидки: "+ (Spending.multiply(new BigDecimal("0.07"))));
         }
-        else if(age <= 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), а так же условие с возрастом
+        else if(age <= 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), а так же условие с возрастом где меньше 18
         {
             System.out.print("Потраченная сумма: " + (Spending.subtract(Spending.multiply(new BigDecimal("0.09")))));
             System.out.println(" Вычет скидки: "+ (Spending.multiply(new BigDecimal("0.09"))));
         }
-        else if(age > 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), а так же условие с возрастом
+        else if(age > 18 & Spending.compareTo(x) >= 0 & Spending.compareTo(c) < 0)// [200;300), условие с возрастом где больше 18
         {
             System.out.print("Потраченная сумма: " + (Spending.subtract(Spending.multiply(new BigDecimal("0.16")))));
             System.out.println(" Вычет скидки: "+ (Spending.multiply(new BigDecimal("0.16"))));
@@ -46,22 +46,6 @@ public class Task1 {
             System.out.print("Потраченная сумма: "+ (Spending.subtract(Spending.multiply(new BigDecimal("0.20")))));
             System.out.println(" Вычет скидки: "+ (Spending.multiply(new BigDecimal("0.20"))));
         }
-
-
-        /*switch (...){
-            case z:
-                break;
-            case x:
-                break;
-            case c:
-                break;
-            case v:
-                break;
-            case :
-                break;
-        }*/
-
-
         scan.close();
     }
 
