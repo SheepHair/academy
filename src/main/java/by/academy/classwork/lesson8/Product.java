@@ -3,8 +3,15 @@ package by.academy.classwork.lesson8;
 public class Product {
     String type;
     double price;
-    int numberofproducts;
+    double numberofproducts;
     String name;
+
+    public Product(String type, double price, double numberofproducts, String name) {
+        this.type = type;
+        this.price = price;
+        this.numberofproducts = numberofproducts;
+        this.name = name;
+    }
 
     public double Discount(){
         return 0;
@@ -29,7 +36,7 @@ public class Product {
         this.price = price;
     }
 
-    public int getNumberofproducts() {
+    public double getNumberofproducts() {
         return numberofproducts;
     }
 
