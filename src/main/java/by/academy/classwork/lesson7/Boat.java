@@ -1,4 +1,4 @@
-package by.academy.classwork.lesson7;
+/*package by.academy.classwork.lesson7;
 
 public class Boat extends Product {
     public Boat() {
@@ -8,4 +8,4 @@ public class Boat extends Product {
             super(price, "Boat",);
         }
     }
-}
+}*/

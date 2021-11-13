@@ -1,3 +1,4 @@
+/*
 package by.academy.classwork.lesson7;
 
 public class Car extends Product{
@@ -10,3 +11,4 @@ public class Car extends Product{
         }
     }
 }
+*/
