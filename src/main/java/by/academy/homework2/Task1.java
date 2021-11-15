@@ -30,11 +30,11 @@ public class Task1 {
                 }
             }
             else
-            System.out.println("Не являются");
+            System.out.println("Не являются.");
                 if (Arrays.equals(firststr, arr3)) {
-                    System.out.println("Являются");
+                    System.out.println("Являются.");
                 } else
-                    System.out.println("Не являются");
+                    System.out.println("Не являются.");
 
             scanner.close();
         }
