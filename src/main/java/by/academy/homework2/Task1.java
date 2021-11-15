@@ -7,13 +7,13 @@ public class Task1 {
 
         public static void main(String[] args) {
 
-            Scanner scanner = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in);
             System.out.print("Введите первую строку: ");
 
-            String str1 = scanner.nextLine();
+            String str1 = scan.nextLine();
             System.out.print("Введите вторую строку: ");
 
-            String str2 = scanner.nextLine();
+            String str2 = scan.nextLine();
 
             char[] firststr = str1.toCharArray();
             char[] secondstr = str2.toCharArray();
@@ -36,6 +36,6 @@ public class Task1 {
                 } else
                     System.out.println("Не являются.");
 
-            scanner.close();
+            scan.close();
         }
     }

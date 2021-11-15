@@ -1,8 +1,95 @@
 package by.academy.homework2;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Введите сколько будет слов:");
+        int number = sc.nextInt();
+        System.out.println("Введите " + number + " слов:");
+        String[] str = new String[number];
+        char[] ch = new char[str.length];
+        int[] countСhar = new int[number];
+
+        for (int i = 0; i < number; i++) {
+            str[i] = sc.next();
+        }
+
+        for (int i = 0; i < str.length; i++) {
+            ch = str[i].toCharArray();
+            Arrays.sort(ch);
+            int count = 1;
+            for (int j = 1; j < ch.length; j++) {
+                if (ch[j] != ch[j - 1]) {
+                    count++;
+                }
+            }
+            countСhar[i] = count;
+        }
+
+        int minValue = countСhar[0];
+        int index = 0;
+        for (int i = 0; i < countСhar.length; i++) {
+            if(countСhar[i] < minValue) {
+                minValue = countСhar[i];
+                index = i;
+            }
+        }
+
+        System.out.println("Cлово, в котором число различных символов минимально:");
+        System.out.println(str[index]);
+
+        sc.close();
+    }}
+   /* private static int getUniqueCharQuantity(String s) {
+        int []charCounter = new int[256];
+        char[]allChars = s.toCharArray();
+
+        for (Character c:allChars) {
+            charCounter[c]++;
+        }
+        int uniqueCounter = 0;
+        for (int i = 0;i<charCounter.length;i++) {
+            int counter =charCounter[i];
+            if (counter>0) {
+                uniqueCounter++;
+            }
+        }
+        return uniqueCounter;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ведите кол-во строк");
+        int n = sc.nextInt();
+        String [] arr= new String[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("введите слово");
+            arr[i]=sc.next();
+
+        }
+
+        int minChars = -1;
+        String minWord = null;
+
+        for (int i=1;i<n;i++) {
+            String s = arr[i];
+            arr[i] = sc.next();
+            int unique = getUniqueCharQuantity(s);
+            if(minWord==null&&minChars>unique) {
+                minChars = unique;
+                minWord = s;
+            }
+
+        }
+        System.out.println(minWord);
+        sc.close();
+    }
+}
+*/
     /*    private static int diff(String str){ // число уникальных символов
             StringBuffer symbol = new StringBuffer(); // строка, в которой каждый символ будет содержаться лишь однажды
             String smb; // текущий символ в строке
@@ -35,11 +122,11 @@ public class Task2 {
             System.out.println("");
             System.out.println("Искомое слово: "+goal+", число разных символов: "+diff(goal));
         }*/
-    public static void main(String[] args){
+   /* public static void main(String[] args){
     }}
 
 
-    /*    int n; //количество строк
+    *//*    int n; //количество строк
         String[] text;
         Scanner scan = new Scanner(System.in);
         if (scan.Nextint()) { // возвращает истинну если с потока ввода можно считать целое число
