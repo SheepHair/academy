@@ -9,9 +9,9 @@ public class Task4 {
 
         int numberofplayers;
 
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Введите количество игроков: ");
-        numberofplayers = sc.nextInt();
+        numberofplayers = scan.nextInt();
 
         String[] cards = {"Червь", "Бубен", "Пика", "Треф"};
         String[] suit = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Валет", "Дама", "Король", "Туз"};
@@ -19,7 +19,7 @@ public class Task4 {
         Random rand = new Random();
 
         for (int i = 1; i <= numberofplayers; i++) {
-            System.out.println("");
+            System.out.println(";");
             System.out.print("Игрок №" + i+ ":");
             for (int a = 0; a < 5; a++) {
                 String card1 = cards[rand.nextInt(cards.length)];
@@ -30,5 +30,7 @@ public class Task4 {
                 System.out.print(" ");
             }
         }
+        System.out.println(";");
+        scan.close();
     }
 }
