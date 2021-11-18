@@ -1,3 +1,4 @@
+/*
 package by.academy.classwork.lesson8;
 
 public class Bargain {
@@ -14,3 +15,4 @@ public class Bargain {
         Deal deal = new Deal(seller, buyer, products);
     }
 }
+*/

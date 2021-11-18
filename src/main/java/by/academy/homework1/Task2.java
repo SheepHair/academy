@@ -1,3 +1,4 @@
+/*
 package by.academy.homework1;
 
 import java.util.Scanner;
@@ -44,3 +45,4 @@ public class Task2 {
         scan.close();
     }
 }
+*/
