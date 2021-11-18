@@ -30,7 +30,6 @@ public class Task2 {
             }
             Count[i] = count;
         }
-
         int minValue = Count[0];
         int index = 0;
         for (int i = 0; i < Count.length; i++) {
