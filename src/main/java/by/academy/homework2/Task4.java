@@ -22,7 +22,6 @@ public class Task4 {
 
         for (int i = suit.length - 1; i > 0; i--) {    // перетусовка методом Fisher–Yates, взял от сюда(http://developer.alexanderklimov.ru/android/java/array.php)
             int index = rand.nextInt(i + 1);
-            // Simple swap
             String a = suit[index];
             suit[index] = suit[i];
             suit[i] = a;
