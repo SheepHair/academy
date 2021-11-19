@@ -1,5 +1,5 @@
 package by.academy.homework2;
-;
+
 import java.util.Random;
 import java.util.Scanner;
 
