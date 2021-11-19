@@ -4,7 +4,7 @@ public class Product {
 
         double price;
         String name;
-        String type;
+       private String type;
 
         public Product() {
             super();
@@ -31,13 +31,6 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
-
-    public String getType() {
-        return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-}
 
