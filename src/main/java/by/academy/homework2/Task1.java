@@ -9,10 +9,9 @@ public class Task1 {
 
             Scanner scan = new Scanner(System.in);
             System.out.print("Введите первую строку: ");
-
             String str1 = scan.nextLine();
-            System.out.print("Введите вторую строку: ");
 
+            System.out.print("Введите вторую строку: ");
             String str2 = scan.nextLine();
 
             char[] firststr = str1.toCharArray();
