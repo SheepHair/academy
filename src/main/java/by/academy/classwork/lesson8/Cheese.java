@@ -1,11 +1,11 @@
-package by.academy.classwork.lesson8;
+/*package by.academy.classwork.lesson8;
 
 public class Cheese extends Product {
 
 
     private int age;
 
-    public Cheese(String type, double price, double numberofproducts, String name, int age) {
+    public Cheese() {
         super(type, price, numberofproducts, name);
         this.age = age;
     }
@@ -15,4 +15,4 @@ public class Cheese extends Product {
         }
         return 1;
     }
-}
+}*/
