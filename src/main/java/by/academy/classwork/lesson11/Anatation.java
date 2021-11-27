@@ -1,3 +1,4 @@
+/*
 package by.academy.classwork.lesson11;
 
 import java.lang.annotation.*;
@@ -13,3 +14,4 @@ public @interface Anatation {
 
     String []
 }
+*/
