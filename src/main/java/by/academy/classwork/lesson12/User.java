@@ -1,22 +1,32 @@
 package by.academy.classwork.lesson12;
 
 public class User {
+    public static void main(String[] args) {
+        Person tom = new Person("Tom");
+        tom.setAccount("qwerty");
+    }
+}
 
-    private String login;
-    private String password;
+class Person {
+    private String name;
 
-    public User(String login, String password) {
-        this.login = login;
-        this.password = password;
+    public String getName() {
+        return name;
     }
 
-    public void createQuery() {
+    Person(String name) {
+        this.name = name;
+    }
 
-}
-    public class Query {
+    public void setAccount(String password) {
+        class Account {
 
-        public void printToLog() {
-            System.out.println("Пользователь ввел login и password");
+            void display() {
+                System.out.printf("Account Login: %s \t Password: %s \n", name, password);
+            }
         }
+        Account account = new Account();
+        account.display();
     }
 }
+

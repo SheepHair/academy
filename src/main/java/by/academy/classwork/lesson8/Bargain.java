@@ -9,8 +9,8 @@ public class Bargain {
         products[1] = new Product();
         products[2] = new Product();
 
-        User seller = new User();
-        User buyer = new User();
+        User.java seller = new User.java();
+        User.java buyer = new User.java();
 
         Deal deal = new Deal(seller, buyer, products);
     }
