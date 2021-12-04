@@ -1,7 +1,6 @@
-/*
-package by.academy.classwork.lesson13;
+package by.academy.classwork.lesson14;
 
-public class LinkedListCustom<T> {
+public class Task3 {
 
     private Node<T> head;
     private Node<T> tail;
@@ -97,4 +96,3 @@ public class LinkedListCustom<T> {
     }
 
 }
-*/

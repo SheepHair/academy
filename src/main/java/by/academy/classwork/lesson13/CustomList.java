@@ -1,3 +1,4 @@
+/*
 package by.academy.classwork.lesson13;
 
 import java.util.Iterator;
@@ -189,3 +190,4 @@ import java.util.Iterator;
 
     }
 
+*/
