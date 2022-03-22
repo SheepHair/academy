@@ -1,4 +1,4 @@
-package by.academy.classwork.lesson14;
+/*package by.academy.classwork.lesson14;
 
 import java.security.Key;
 import java.util.HashMap;
@@ -28,4 +28,4 @@ public class Task7 {
             return key.equals(((Key)obj).key);
         }
     }
-}
+}*/
